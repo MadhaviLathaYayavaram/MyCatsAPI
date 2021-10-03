@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhavi's Cat API</title>
+    <style>
+    
+    h1 {
+        color:blue;
+    }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+ 
+  
+}
+
+.row {
+
+  border-bottom: solid;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+  
+
+    </style>
+
+</head>
+<body>
+
+    <h1 align="center">CATs API</h1>
+    <div class="row">
+        <div class="column" id="catid" style="background-color:rgb(209, 207, 207);">
+          <h2>Cat ID</h2>
+          </div>        
+        <div class="column" id="catdate" style="background-color:rgb(209, 207, 207);">
+          <h2>Created At</h2>
+         
+        </div>
+        <div class="column" id="cattag" style="background-color:rgb(209, 207, 207);">
+          <h2>Tags</h2>
+         
+        </div>
+      </div>
+   <script src="script.js"></script>
+</body>
+</html>
